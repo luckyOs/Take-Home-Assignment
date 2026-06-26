@@ -1,5 +1,5 @@
 {
-  "validEmployee": {
+  "employee": {
     "name": "John Doe",
     "email": "john@test.com",
     "department": "IT",
