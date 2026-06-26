@@ -2,7 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://workforcepro-app.com",
+    env: {
+      baseUrl: "https://workforcepro-app.com"
+    },
     viewportWidth: 1280,
     viewportHeight: 720,
     video: true,
