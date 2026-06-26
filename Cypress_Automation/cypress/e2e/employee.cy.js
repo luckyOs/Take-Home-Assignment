@@ -1,16 +1,40 @@
-class EmployeePage {
+import EmployeePage from "../pages/EmployeePage";
+import data from "../fixtures/employee.json";
 
-  visit() {
-    cy.visit(Cypress.env("baseUrl") + "/employees");
-  }
+describe("Employee Management", () => {
 
-  createEmployee(name, email, dept, supervisor) {
-    cy.get("#name").type(name);
-    cy.get("#email").type(email);
-    cy.get("#department").select(dept);
-    cy.get("#supervisor").select(supervisor);
-    cy.get("#saveBtn").click();
-  }
-}
+  it("TC-EMP-001 - Create Employee", () => {
 
-export default new EmployeePage();
+    cy.login("admin@test.com", "Admin@123");
+
+    EmployeePage.visit();
+
+    EmployeePage.createEmployee(
+      data.employee.name,
+      data.employee.email,
+      data.employee.department,
+      data.employee.supervisor
+    );
+
+    cy.get(".success-message")
+      .should("contain", "Employee created successfully");
+  });
+
+  it("TC-EMP-002 - Duplicate Email", () => {
+
+    cy.login("admin@test.com", "Admin@123");
+
+    EmployeePage.visit();
+
+    EmployeePage.createEmployee(
+      "John Test",
+      data.employee.email,
+      "IT",
+      "SUP001"
+    );
+
+    cy.get(".error-message")
+      .should("contain", "Email must be unique");
+  });
+
+});
