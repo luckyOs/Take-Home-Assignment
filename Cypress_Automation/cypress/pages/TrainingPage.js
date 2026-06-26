@@ -1,18 +1,22 @@
 class TrainingPage {
 
-  assignTraining(empId, trainingId) {
-    cy.get("#employee").select(empId);
-    cy.get("#training").select(trainingId);
+  visit() {
+    cy.visit(Cypress.env("baseUrl") + "/training");
+  }
+
+  assignTraining(emp, training) {
+    cy.get("#employee").select(emp);
+    cy.get("#training").select(training);
     cy.get("#dueDate").type("2026-07-30");
-    cy.get("button#assign").click();
+    cy.get("#assignBtn").click();
   }
 
   completeTraining() {
-    cy.get("button#complete").click();
+    cy.get("#completeBtn").click();
   }
 
   approveTraining() {
-    cy.get("button#approve").click();
+    cy.get("#approveBtn").click();
   }
 }
 
