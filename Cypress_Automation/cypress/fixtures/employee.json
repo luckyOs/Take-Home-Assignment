@@ -1,0 +1,8 @@
+{
+  "validEmployee": {
+    "name": "John Doe",
+    "email": "john@test.com",
+    "department": "IT",
+    "supervisor": "SUP001"
+  }
+}
