@@ -117,18 +117,18 @@ The RTM includes:
 
 All listed requirements (EMP, OJT, and CERT) are mapped to at least one corresponding test case.
 
-**Attahed Excel Workbook Structure
-**
-Sheet	Content
-Sheet 1	Test Scenarios
-Sheet 2	Detailed Test Cases
-Sheet 3	Requirement Traceability Matrix (RTM)
-Sheet 4	Smoke Test Checklist
-Sheet 5	Defect Report
-Sheet 6	API Test Cases
-Sheet 7	SQL Validation
-Sheet 8	Cypress Automation
-Sheet 9	Accessibility Report
-Sheet 10	Bonus
+# Attahed Excel Workbook Structure
+
+* Sheet	Content
+* Sheet 1	Test Scenarios
+* Sheet 2	Detailed Test Cases
+* Sheet 3	Requirement Traceability Matrix (RTM)
+* Sheet 4	Smoke Test Checklist
+* Sheet 5	Defect Report
+* Sheet 6	API Test Cases
+* Sheet 7	SQL Validation
+* Sheet 8	Cypress Automation
+* Sheet 9	Accessibility Report
+* Sheet 10	Bonus
 
 
