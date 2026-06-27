@@ -37,7 +37,9 @@
 
 # A. Introduction
 
-This document contains the test planning artifacts for the WorkForcePro Workforce Management platform. It includes high-level test scenarios, detailed manual test cases, and a Requirement Traceability Matrix (RTM) to ensure complete coverage of all functional requirements.
+This document presents the complete Software QA Engineer Take-Home Assignment for the WorkForcePro Workforce Management Platform. It demonstrates a comprehensive quality assurance approach covering manual testing, API testing, SQL validation, automation testing, accessibility evaluation, and defect management to ensure the platform meets functional, usability, and quality requirements.
+
+The assignment has been organized into ten sections to provide complete traceability from business requirements to testing activities and deliverables:
 
 ---
 
