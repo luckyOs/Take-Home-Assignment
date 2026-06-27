@@ -14,11 +14,11 @@
 ---
 
 # Table of Contents
-A. Introduction
-B. Scope
-C. Assumptions
+* A. Introduction
+* B. Scope
+* C. Assumptions
 
-D. 📘 Workbook Contents
+* D. 📘 Workbook Contents
 1. Test Scenarios
 2. Test Cases
 3. RTM
