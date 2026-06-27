@@ -14,23 +14,31 @@
 ---
 
 # Table of Contents
+A. Introduction
+B. Scope
+C. Assumptions
 
-1. Introduction
-2. Scope
-3. Assumptions
-4. Test Scenarios
-5. Detailed Test Cases
-6. Requirement Traceability Matrix (RTM)
+D. 📘 Workbook Contents
+1. Test Scenarios
+2. Test Cases
+3. RTM
+4. Smoke Test Checklist
+5. Defect Reports
+6. Postman Collection
+7. SQL Queries
+8. Cypress Project
+9. Accessibility Report
+10. Bonus Investigation (optional)
 
 ---
 
-# 1. Introduction
+# A. Introduction
 
 This document contains the test planning artifacts for the WorkForcePro Workforce Management platform. It includes high-level test scenarios, detailed manual test cases, and a Requirement Traceability Matrix (RTM) to ensure complete coverage of all functional requirements.
 
 ---
 
-# 2. Scope
+# B. Scope
 
 The following functional areas are included:
 
@@ -40,7 +48,7 @@ The following functional areas are included:
 
 ---
 
-# 3. Assumptions
+# C. Assumptions
 
 The following assumptions were made due to limited functional specifications:
 
@@ -55,69 +63,9 @@ The following assumptions were made due to limited functional specifications:
 
 ---
 
-# 4. Test Scenarios
 
-## 4.1 Employee Management
 
-* Create employee with valid information
-* Validate duplicate email restriction
-* Validate mandatory fields
-* Assign employee to a department
-* Prevent assignment to an invalid department
-
-## 4.2 OJT Training
-
-* Assign training to employee
-* Prevent assigning training to a non-existing employee
-* Complete assigned training
-* Prevent completion of unassigned training
-* Supervisor approves completed training
-* Supervisor rejects completed training
-
-## 4.3 Certification Management
-
-* Add multiple certifications
-* Track certification expiry dates
-* Identify certifications expiring within 30 days
-* Handle expired certifications
-* Verify employees can hold multiple certifications
-
----
-
-# 5. Detailed Test Cases
-
-The detailed test case section includes:
-
-* Test Case ID
-* Requirement ID
-* Module
-* Scenario
-* Test Type (Positive / Negative / Edge)
-* Priority
-* Preconditions
-* Test Data
-* Steps
-* Expected Result
-* Automation Candidate
-
-(Refer to the completed Detailed Test Case sheet.)
-
----
-
-# 6. Requirement Traceability Matrix (RTM)
-
-The RTM maps every business requirement to one or more test scenarios and detailed test cases to ensure complete functional coverage.
-
-The RTM includes:
-
-* Requirement ID
-* Requirement Description
-* Related Test Scenario
-* Related Test Case(s)
-
-All listed requirements (EMP, OJT, and CERT) are mapped to at least one corresponding test case.
-
-# Attahed Excel Workbook Structure
+# D. Attahed Excel 📘 Workbook Structure
 
 * Sheet	Content
 * Sheet 1	Test Scenarios
