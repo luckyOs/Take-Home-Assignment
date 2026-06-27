@@ -18,17 +18,20 @@
 * B. Scope
 * C. Assumptions
 
-* 📘 Workbook Contents
-1. Test Scenarios
-2. Test Cases
-3. RTM
-4. Smoke Test Checklist
-5. Defect Reports
-6. Postman Collection
-7. SQL Queries
-8. Cypress Project
-9. Accessibility Report
-10. Bonus Investigation (optional)
+
+# Attahed Excel 📘 Workbook Structure
+
+* Sheet	Content
+* Sheet 1	Test Scenarios
+* Sheet 2	Detailed Test Cases
+* Sheet 3	Requirement Traceability Matrix (RTM)
+* Sheet 4	Smoke Test Checklist
+* Sheet 5	Defect Report
+* Sheet 6	API Test Cases
+* Sheet 7	SQL Validation
+* Sheet 8	Cypress Automation
+* Sheet 9	Accessibility Report
+* Sheet 10	Bonus
 
 ---
 
@@ -65,18 +68,5 @@ The following assumptions were made due to limited functional specifications:
 
 
 
-# Attahed Excel 📘 Workbook Structure
-
-* Sheet	Content
-* Sheet 1	Test Scenarios
-* Sheet 2	Detailed Test Cases
-* Sheet 3	Requirement Traceability Matrix (RTM)
-* Sheet 4	Smoke Test Checklist
-* Sheet 5	Defect Report
-* Sheet 6	API Test Cases
-* Sheet 7	SQL Validation
-* Sheet 8	Cypress Automation
-* Sheet 9	Accessibility Report
-* Sheet 10	Bonus
 
 
