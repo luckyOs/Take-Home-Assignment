@@ -18,7 +18,7 @@
 * B. Scope
 * C. Assumptions
 
-* D. 📘 Workbook Contents
+* 📘 Workbook Contents
 1. Test Scenarios
 2. Test Cases
 3. RTM
@@ -65,7 +65,7 @@ The following assumptions were made due to limited functional specifications:
 
 
 
-# D. Attahed Excel 📘 Workbook Structure
+# Attahed Excel 📘 Workbook Structure
 
 * Sheet	Content
 * Sheet 1	Test Scenarios
