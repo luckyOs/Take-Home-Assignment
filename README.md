@@ -1,4 +1,4 @@
-# WorkForcePro – Test Planning & Traceability Document
+# WorkForcePro – Test Plan Document
 
 ## Document Information
 
